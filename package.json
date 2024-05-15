@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -37,7 +38,6 @@
   },
   "description": "Welcome to the React Art Gallery, a dynamic single-page application crafted with React for art enthusiasts and collectors. This application offers a virtual gallery experience, enabling users to manage their art collection efficiently. React Art Gallery allows users to view the currently featured artwork, explore a comprehensive list of artworks, add new pieces to their collection, and select any artwork to be the \"featured\" piece.",
   "main": "index.js",
-  "devDependencies": {},
   "keywords": [],
   "author": "",
   "license": "ISC"
