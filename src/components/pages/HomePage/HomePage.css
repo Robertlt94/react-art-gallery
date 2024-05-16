@@ -1,0 +1,118 @@
+#background1, #background2, #background3 {
+    width: 100vw;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+    font-size: 6rem;
+    font-weight: 1000;
+}
+
+#background1 {
+    background-color: #e9e9e9;
+}
+
+#background2 {
+    background-color: #16182c;
+    width: 80vw;
+    height: 80vh;
+    position: absolute;
+    transform: translateY(-60vh);
+    color: #fff;
+    z-index: 1;
+    border-top-right-radius: 8pt;
+    border-bottom-right-radius: 8pt;
+}
+
+#background3 {
+    background-color: #767676;
+    position: absolute;
+    transform: translateY(0vh);
+    height: 80vh;
+}
+
+#home-image-container1 img {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    box-shadow: 5px 10px 20px #000;
+    transform: translateY(-50vh);
+}
+
+#home-image-container1 img:hover {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 80%;
+}
+
+#home-image-container2 img {
+    position: absolute;
+    left: 10vw;
+    bottom: 5vh;
+    margin: 5vh 5vw;
+    box-shadow: -3px 2px 10px #e6e6ff;
+}
+
+#home-image-container2 img:hover {
+    animation: rotate 1s linear;
+}
+
+@keyframes rotate {
+    50% {transform: rotate(15deg);}
+}
+
+#home-image-container3 img {
+    position: absolute;
+    margin: 5vh 5vw;
+    box-shadow: -3px 2px 10px #000;
+    bottom: 10vh;
+    right: 20vw;
+}
+
+#home-image-container3 img:hover {
+    transform: scaleX(-1);
+}
+
+#welcome-text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -2rem;
+    padding-top: 5vh;
+    padding-left: 20vw;
+}
+
+#to-text {
+    position: absolute;
+    transform: translateY(0vh) translateX(35vw);
+    color: #e9e9e9;
+    z-index: 2;
+}
+
+#inspiration-text {
+    position: absolute;
+    transform: translateY(15vh);
+    right: 10vw;
+}
+
+#creativity-text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -2rem;
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+}
+
+#and-text {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    letter-spacing: -2rem;
+    position: absolute;
+    color: #000;
+    bottom: 30vh;
+    left: 30vw;
+}
+
+#perspective-text {
+    position: absolute;
+    bottom: 5vh;
+    right: 25vw;
+}
