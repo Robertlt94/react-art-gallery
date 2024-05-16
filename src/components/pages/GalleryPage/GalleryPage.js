@@ -1,11 +1,15 @@
 import React from 'react';
 import './GalleryPage.css';
+import Card from '../../Card/Card';
 
-const GalleryPage = () => {
+const GalleryPage = ({paintings}) => {
 
     return (
         <div className='gallery-container'>
-            <h1>GalleryPage</h1>
+            {paintings.map((art, index) => {
+                return (
+                    <Card key={index} name={art.name} dated={art.dated} artist={art.artist} image={art.image} description={art.description}/>
+            )})}
         </div>
     )
 }
