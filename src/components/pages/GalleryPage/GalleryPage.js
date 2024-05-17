@@ -8,7 +8,7 @@ const GalleryPage = ({paintings}) => {
         <div className='gallery-container'>
             {paintings.map((art, index) => {
                 return (
-                    <Card key={index} name={art.name} dated={art.dated} artist={art.artist} image={art.image} description={art.description}/>
+                    <Card key={index} route={`/gallery/${art.id}`} name={art.name} dated={art.dated} artist={art.artist} image={art.image} description={art.description}/>
             )})}
         </div>
     )

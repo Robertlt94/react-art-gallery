@@ -1,0 +1,40 @@
+/* .card-container {
+    height: 40vh;
+    width: max-content;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    padding: 1vh 1vw;
+    box-shadow: 0 0 10px #000;
+    margin: 5vh 5vw;
+    row-gap: 5vh;
+    column-gap: 5vw;
+}
+
+.card-container:hover {
+    height: max-content;
+}
+
+.image-container {
+    vertical-align: middle;
+    width: max-content;
+}
+
+.image-container img {
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: transparent;
+}
+
+.info-container {
+    height: max-content;
+    width: 30vw;
+    overflow: hidden;
+}
+
+.info-container p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+} */

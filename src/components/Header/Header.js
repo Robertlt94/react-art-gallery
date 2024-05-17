@@ -12,9 +12,9 @@ const Header = ({ message }) => {
             <div className='message-container'>
                 <h2>{message}</h2>
             </div>
-            <div className='nav-container'>
+            <nav className='nav-container'>
                 <Nav />
-            </div>
+            </nav>
         </div>
     );
 }

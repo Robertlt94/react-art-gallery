@@ -14,12 +14,12 @@ const Routes = () => {
     const location = useLocation();
 
     return (
-        pages.map( (page, index) => {
+        pages.map((page, index) => {
             return (
                 page.route == location.pathname ? 
-                    <Link to={page.route} key={index} style={{ color: "#000", backgroundColor: "#fff" }} disabled >{page.name}</Link>
+                    <Link key={index} to={page.route} style={{ color: "#000", backgroundColor: "#fff" }} disabled >{page.name}</Link>
                 :
-                    <Link to={page.route} key={index} >{page.name}</Link>
+                    <Link key={index} to={page.route} >{page.name}</Link>
             )
         })
     )
