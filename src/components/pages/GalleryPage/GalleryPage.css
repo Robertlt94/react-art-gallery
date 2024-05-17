@@ -1,0 +1,11 @@
+.gallery-container {
+    height: 90vh;
+    background-color: #000;
+    padding: 10vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: scroll;
+    justify-content: space-evenly;
+    row-gap: 10vh;
+}
