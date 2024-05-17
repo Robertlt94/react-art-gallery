@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-import {BrowserRouter as Router, Routes, Route, useParams } from 'react-router-dom';
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './components/pages/HomePage/HomePage';
 import GalleryPage from './components/pages/GalleryPage/GalleryPage';
 import AboutPage from './components/pages/AboutPage/AboutPage';
@@ -95,8 +95,6 @@ function App() {
       },
     ]
   )
-
-  const {id} = useParams();
 
   return (
     <Router>
